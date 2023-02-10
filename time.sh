@@ -1,4 +1,8 @@
 #!/bin/bash
+
+mv test.txt testnew.txt
+echo printing new files list
+ls
  
 CURRENTDATE=`date +"%Y-%m-%d %T"`
 CURRENTDATEONLY=`date +"%b %d, %Y"`
